@@ -1,4 +1,5 @@
 import express from 'express'
+
 import notesRoutes from './routes/notes.routes.js'
 import cors from 'cors'
 
