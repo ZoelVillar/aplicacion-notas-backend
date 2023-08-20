@@ -17,6 +17,9 @@ app.use((req, res, next) => {
 })
 
 // routes
+// app.get('/api', (req, res) => {
+//   res.send('hola')
+// })
 app.use('/api', notesRoutes)
 
 app.use((req, res) => {
